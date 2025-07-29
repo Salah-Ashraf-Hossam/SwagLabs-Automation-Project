@@ -1,0 +1,6 @@
+[INFO] 24-07-2025 00:16:05 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:33)] - Chrome driver is opened
+[INFO] 24-07-2025 00:16:07 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:35)] - LoginPage is opened
+[INFO] 24-07-2025 00:16:07 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepOneTC started
+[INFO] 24-07-2025 00:16:09 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 5
+[INFO] 24-07-2025 00:16:09 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 6
+[INFO] 24-07-2025 00:16:19 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:23)] - Test Case checkoutStepOneTC failed

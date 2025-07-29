@@ -1,0 +1,15 @@
+[INFO] 24-07-2025 16:08:28 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:33)] - Chrome driver is opened
+[INFO] 24-07-2025 16:08:31 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:35)] - LoginPage is opened
+[INFO] 24-07-2025 16:08:31 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepOneTC started
+[INFO] 24-07-2025 16:08:32 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 1
+[INFO] 24-07-2025 16:08:32 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 6
+[INFO] 24-07-2025 16:08:43 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:23)] - Test Case checkoutStepOneTC failed
+[ERROR] 24-07-2025 16:08:56 [main] [Utilites.Utility.takeFullScreenSHOT(Utility.java:88)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb85cb1ff3e046dadffc80d6367b537e, findElement {value=shopping_cart_badge, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62961/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb85cb1ff3e046dadffc80d6367b537e

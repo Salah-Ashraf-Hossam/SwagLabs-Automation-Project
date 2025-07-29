@@ -1,0 +1,6 @@
+[INFO] 24-07-2025 01:30:16 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:34)] - Chrome driver is opened
+[INFO] 24-07-2025 01:30:20 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:36)] - LoginPage is opened
+[INFO] 24-07-2025 01:30:21 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case finishOrderTC started
+[INFO] 24-07-2025 01:30:21 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 6
+[INFO] 24-07-2025 01:30:32 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:23)] - Test Case finishOrderTC failed
+[ERROR] 24-07-2025 01:30:33 [main] [Utilites.Utility.takeFullScreenSHOT(Utility.java:88)] - Cannot invoke "Object.toString()" because the return value of "com.assertthat.selenium_shutterbug.utils.web.Browser.executeJsScript(String, Object[])" is null

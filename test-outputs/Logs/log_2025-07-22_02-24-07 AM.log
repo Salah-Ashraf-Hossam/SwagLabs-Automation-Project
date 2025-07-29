@@ -1,0 +1,5 @@
+[INFO] 22-07-2025 02:24:07 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:24)] - Chrome driver is opened
+[INFO] 22-07-2025 02:24:09 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:26)] - LoginPage is opened
+[INFO] 22-07-2025 02:24:10 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:27)] - number of all products = 6
+[INFO] 22-07-2025 02:24:11 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:37)] - number of products on cart = 6
+[INFO] 22-07-2025 02:24:11 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:48)] - number of selected products = 6

@@ -1,0 +1,41 @@
+[INFO] 26-07-2025 00:29:22 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:29)] - Chrome driver is opened
+[INFO] 26-07-2025 00:29:24 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:31)] - LoginPage is opened
+[INFO] 26-07-2025 00:29:25 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:45)] - Chrome driver is opened
+[INFO] 26-07-2025 00:29:27 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:47)] - LoginPage is opened
+[INFO] 26-07-2025 00:29:28 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case addingRandomProductsToCartTC started
+[INFO] 26-07-2025 00:29:28 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 1
+[INFO] 26-07-2025 00:29:38 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:36)] - Test Case addingRandomProductsToCartTC failed
+[ERROR] 26-07-2025 00:29:39 [main] [Utilites.Utility.takeFullScreenSHOT(Utility.java:85)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33fd523438b78824d0aa943edf199216, findElement {value=shopping_cart_badge, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53061/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33fd523438b78824d0aa943edf199216
+[INFO] 26-07-2025 00:29:42 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:45)] - Chrome driver is opened
+[INFO] 26-07-2025 00:29:44 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:47)] - LoginPage is opened
+[INFO] 26-07-2025 00:29:45 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkingNumberOfSelectedProductsTC started
+[INFO] 26-07-2025 00:29:45 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 0
+[ERROR] 26-07-2025 00:29:50 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:48)] - Expected condition failed: waiting for visibility of element located by By.className: shopping_cart_badge (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53092}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53092/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c9c3d6d66d7fe9f7248bf0f11fed812
+[INFO] 26-07-2025 00:29:50 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:56)] - number of selected products = 0
+[INFO] 26-07-2025 00:29:50 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case checkingNumberOfSelectedProductsTC passed
+[INFO] 26-07-2025 00:29:52 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:45)] - Chrome driver is opened
+[INFO] 26-07-2025 00:29:54 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:47)] - LoginPage is opened
+[INFO] 26-07-2025 00:29:54 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case clickOnCartIconURLTC started
+[INFO] 26-07-2025 00:30:05 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:36)] - Test Case clickOnCartIconURLTC failed
+[ERROR] 26-07-2025 00:30:05 [main] [Utilites.Utility.takeFullScreenSHOT(Utility.java:85)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a98aa40f6b6f984569800ea5a0645b7, findElement {value=shopping_cart_badge, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53119}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53119/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a98aa40f6b6f984569800ea5a0645b7

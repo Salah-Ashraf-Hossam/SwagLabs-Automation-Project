@@ -1,0 +1,4 @@
+[INFO] 24-07-2025 01:39:08 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:29)] - Chrome driver is opened
+[INFO] 24-07-2025 01:39:10 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:31)] - LoginPage is opened
+[INFO] 24-07-2025 01:39:10 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case clickOnCartIconURLTC started
+[INFO] 24-07-2025 01:39:11 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case clickOnCartIconURLTC passed

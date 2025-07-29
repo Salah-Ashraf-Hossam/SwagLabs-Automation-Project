@@ -1,0 +1,18 @@
+[INFO] 23-07-2025 11:17:32 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:29)] - Chrome driver is opened
+[INFO] 23-07-2025 11:17:35 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:31)] - LoginPage is opened
+[INFO] 23-07-2025 11:17:36 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case comparingPricesTC started
+[INFO] 23-07-2025 11:17:36 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 1
+[INFO] 23-07-2025 11:17:36 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 5
+[ERROR] 23-07-2025 11:17:47 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:105)] - Expected condition failed: waiting for visibility of element located by By.xpath: //Button[.="Remove"]//preceding-sibling::div[@class="inventory_item_price"][2] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61442/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1b9f2dd1784cbb89dc494544684a20
+[ERROR] 23-07-2025 11:17:57 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:35)] - Expected condition failed: waiting for visibility of element located by By.xpath: //Button[.="Remove"]//preceding-sibling::div[@class="inventory_item_price"][2] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61442/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a1b9f2dd1784cbb89dc494544684a20
+[INFO] 23-07-2025 11:17:57 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case comparingPricesTC passed

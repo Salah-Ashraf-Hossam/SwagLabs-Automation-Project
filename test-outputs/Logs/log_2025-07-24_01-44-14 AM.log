@@ -1,0 +1,7 @@
+[INFO] 24-07-2025 01:44:14 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:34)] - Chrome driver is opened
+[INFO] 24-07-2025 01:44:18 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:36)] - LoginPage is opened
+[INFO] 24-07-2025 01:44:19 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case finishOrderTC started
+[INFO] 24-07-2025 01:44:20 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 6
+[INFO] 24-07-2025 01:44:23 [main] [Tests.TC06_FinishingOrderTest.finishOrderTC(TC06_FinishingOrderTest.java:52)] - Ftest-2025-07-24-1-44-10AM Ltest-2025-07-24-1-44-10AM 02785
+[INFO] 24-07-2025 01:44:23 [main] [Pages.P06_FinishingOrderPage.checkCompleteMessageVisibility(P06_FinishingOrderPage.java:19)] - finish message : [[ChromeDriver: chrome on windows (701c0d1e1be7bce363549b1882be7639)] -> class name: complete-header]
+[INFO] 24-07-2025 01:44:23 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case finishOrderTC passed

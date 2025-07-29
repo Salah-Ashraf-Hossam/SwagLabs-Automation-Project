@@ -1,0 +1,22 @@
+[INFO] 24-07-2025 00:07:03 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:34)] - Chrome driver is opened
+[INFO] 24-07-2025 00:08:00 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:36)] - LoginPage is opened
+[INFO] 24-07-2025 00:08:01 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepTwoTC started
+[INFO] 24-07-2025 00:08:06 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:23)] - Test Case checkoutStepTwoTC failed
+[ERROR] 24-07-2025 00:08:06 [main] [Utilites.Utility.takeScreenShot(Utility.java:77)] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74fa96bba9a2256a57f6cdd04574869c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53953/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74fa96bba9a2256a57f6cdd04574869c
+[ERROR] 24-07-2025 00:08:06 [main] [Utilites.Utility.takeFullScreenSHOT(Utility.java:88)] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74fa96bba9a2256a57f6cdd04574869c, executeScript {args=[], script=return window.devicePixelRatio;}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53953/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74fa96bba9a2256a57f6cdd04574869c

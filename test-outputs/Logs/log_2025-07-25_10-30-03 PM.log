@@ -1,0 +1,55 @@
+[INFO] 25-07-2025 22:30:03 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:27)] - Chrome driver is opened
+[INFO] 25-07-2025 22:30:05 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:29)] - LoginPage is opened
+[INFO] 25-07-2025 22:30:05 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case validLoginTC started
+[INFO] 25-07-2025 22:30:05 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case validLoginTC passed
+[INFO] 25-07-2025 22:30:07 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:29)] - Chrome driver is opened
+[INFO] 25-07-2025 22:30:09 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:31)] - LoginPage is opened
+[INFO] 25-07-2025 22:30:09 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case addingRandomProductsToCartTC started
+[INFO] 25-07-2025 22:30:09 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 2
+[INFO] 25-07-2025 22:30:09 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 5
+[INFO] 25-07-2025 22:30:09 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 6
+[INFO] 25-07-2025 22:30:09 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:45)] - number of products on cart = 3
+[INFO] 25-07-2025 22:30:09 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:56)] - number of selected products = 3
+[INFO] 25-07-2025 22:30:09 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case addingRandomProductsToCartTC passed
+[INFO] 25-07-2025 22:30:11 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:29)] - Chrome driver is opened
+[INFO] 25-07-2025 22:30:12 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:31)] - LoginPage is opened
+[INFO] 25-07-2025 22:30:12 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkingNumberOfSelectedProductsTC started
+[INFO] 25-07-2025 22:30:12 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 6
+[INFO] 25-07-2025 22:30:13 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:45)] - number of products on cart = 6
+[INFO] 25-07-2025 22:30:13 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:56)] - number of selected products = 6
+[INFO] 25-07-2025 22:30:13 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case checkingNumberOfSelectedProductsTC passed
+[INFO] 25-07-2025 22:30:14 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:29)] - Chrome driver is opened
+[INFO] 25-07-2025 22:30:16 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:31)] - LoginPage is opened
+[INFO] 25-07-2025 22:30:16 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case clickOnCartIconURLTC started
+[INFO] 25-07-2025 22:30:17 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case clickOnCartIconURLTC passed
+[INFO] 25-07-2025 22:30:18 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:29)] - Chrome driver is opened
+[INFO] 25-07-2025 22:30:19 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:31)] - LoginPage is opened
+[INFO] 25-07-2025 22:30:19 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case comparingPricesTC started
+[INFO] 25-07-2025 22:30:20 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 1
+[INFO] 25-07-2025 22:30:20 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 5
+[INFO] 25-07-2025 22:30:20 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:92)] - Total Price = 37.98
+[INFO] 25-07-2025 22:30:20 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:32)] - Total Price = 37.98
+[INFO] 25-07-2025 22:30:20 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case comparingPricesTC passed
+[INFO] 25-07-2025 22:30:21 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:33)] - Chrome driver is opened
+[INFO] 25-07-2025 22:30:23 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:35)] - LoginPage is opened
+[INFO] 25-07-2025 22:30:23 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepOneTC started
+[INFO] 25-07-2025 22:30:23 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 1
+[INFO] 25-07-2025 22:30:23 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 4
+[INFO] 25-07-2025 22:30:24 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 6
+[INFO] 25-07-2025 22:30:24 [main] [Tests.TC04_CheckoutTest.checkoutStepOneTC(TC04_CheckoutTest.java:50)] - Ftest-2025-07-25-10-29-55PM Ltest-2025-07-25-10-29-55PM 12562
+[INFO] 25-07-2025 22:30:24 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case checkoutStepOneTC passed
+[INFO] 25-07-2025 22:30:27 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:34)] - Chrome driver is opened
+[INFO] 25-07-2025 22:30:29 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:36)] - LoginPage is opened
+[INFO] 25-07-2025 22:30:29 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepTwoTC started
+[INFO] 25-07-2025 22:30:29 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 6
+[INFO] 25-07-2025 22:30:30 [main] [Tests.TC05_OverviewTest.checkoutStepTwoTC(TC05_OverviewTest.java:51)] - Ftest-2025-07-25-10-29-55PM Ltest-2025-07-25-10-29-55PM 43408
+[INFO] 25-07-2025 22:30:31 [main] [Pages.P05_OverviewPage.calculateTotalPrice(P05_OverviewPage.java:35)] - Calculated Total Pricce = 140.34
+[INFO] 25-07-2025 22:30:31 [main] [Pages.P05_OverviewPage.getTotalPrice(P05_OverviewPage.java:30)] - Actual Total Pricce =  140.34
+[INFO] 25-07-2025 22:30:31 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case checkoutStepTwoTC passed
+[INFO] 25-07-2025 22:30:32 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:34)] - Chrome driver is opened
+[INFO] 25-07-2025 22:30:34 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:36)] - LoginPage is opened
+[INFO] 25-07-2025 22:30:34 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case finishOrderTC started
+[INFO] 25-07-2025 22:30:34 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 6
+[INFO] 25-07-2025 22:30:35 [main] [Tests.TC06_FinishingOrderTest.finishOrderTC(TC06_FinishingOrderTest.java:52)] - Ftest-2025-07-25-10-29-55PM Ltest-2025-07-25-10-29-55PM 95368
+[INFO] 25-07-2025 22:30:35 [main] [Pages.P06_FinishingOrderPage.checkCompleteMessageVisibility(P06_FinishingOrderPage.java:19)] - finish message : Thank you for your order!
+[INFO] 25-07-2025 22:30:35 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case finishOrderTC passed

@@ -1,0 +1,8 @@
+[INFO] 23-07-2025 11:39:37 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:29)] - Chrome driver is opened
+[INFO] 23-07-2025 11:39:41 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:31)] - LoginPage is opened
+[INFO] 23-07-2025 11:39:42 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case comparingPricesTC started
+[INFO] 23-07-2025 11:39:42 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 3
+[INFO] 23-07-2025 11:39:42 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 4
+[INFO] 23-07-2025 11:39:43 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:101)] - Total Price = 65.98
+[INFO] 23-07-2025 11:39:43 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:31)] - Total Price = 65.98
+[INFO] 23-07-2025 11:39:43 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case comparingPricesTC passed

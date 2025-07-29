@@ -1,0 +1,3 @@
+[INFO] 22-07-2025 02:18:09 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:24)] - Chrome driver is opened
+[INFO] 22-07-2025 02:18:12 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:26)] - LoginPage is opened
+[INFO] 22-07-2025 02:18:14 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:27)] - number of all products = 6

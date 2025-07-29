@@ -1,0 +1,9 @@
+[INFO] 22-07-2025 15:42:02 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:28)] - Chrome driver is opened
+[INFO] 22-07-2025 15:42:08 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - LoginPage is opened
+[INFO] 22-07-2025 15:42:08 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case addingRandomProductsToCartTC started
+[INFO] 22-07-2025 15:42:09 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:64)] - randomNumber 1
+[INFO] 22-07-2025 15:42:10 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:64)] - randomNumber 3
+[INFO] 22-07-2025 15:42:10 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:64)] - randomNumber 4
+[INFO] 22-07-2025 15:42:10 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:42)] - number of products on cart = 3
+[INFO] 22-07-2025 15:42:10 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:53)] - number of selected products = 3
+[INFO] 22-07-2025 15:42:11 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case addingRandomProductsToCartTC passed

@@ -1,0 +1,8 @@
+[INFO] 24-07-2025 00:40:50 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:34)] - Chrome driver is opened
+[INFO] 24-07-2025 00:40:51 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:36)] - LoginPage is opened
+[INFO] 24-07-2025 00:40:51 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepTwoTC started
+[INFO] 24-07-2025 00:40:52 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 6
+[INFO] 24-07-2025 00:40:53 [main] [Tests.TC05_OverviewTest.checkoutStepTwoTC(TC05_OverviewTest.java:51)] - Ftest-2025-07-24-12-40-46AM Ltest-2025-07-24-12-40-46AM 28305
+[INFO] 24-07-2025 00:40:53 [main] [Pages.P05_OverviewPage.calculateTotalPrice(P05_OverviewPage.java:35)] - Calculated Total Pricce = 140.34
+[INFO] 24-07-2025 00:40:54 [main] [Pages.P05_OverviewPage.getTotalPrice(P05_OverviewPage.java:30)] - Actual Total Pricce =  140.34
+[INFO] 24-07-2025 00:40:54 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case checkoutStepTwoTC passed

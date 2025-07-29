@@ -1,0 +1,5 @@
+[INFO] 24-07-2025 01:37:08 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:34)] - Chrome driver is opened
+[INFO] 24-07-2025 01:37:10 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:36)] - LoginPage is opened
+[INFO] 24-07-2025 01:37:10 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case finishOrderTC started
+[INFO] 24-07-2025 01:37:10 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 6
+[INFO] 24-07-2025 01:37:21 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:23)] - Test Case finishOrderTC failed

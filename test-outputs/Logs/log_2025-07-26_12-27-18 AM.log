@@ -1,0 +1,51 @@
+[INFO] 26-07-2025 00:27:18 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:29)] - Chrome driver is opened
+[INFO] 26-07-2025 00:27:21 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:31)] - LoginPage is opened
+[INFO] 26-07-2025 00:27:24 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:45)] - Chrome driver is opened
+[INFO] 26-07-2025 00:27:26 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:47)] - LoginPage is opened
+[INFO] 26-07-2025 00:27:27 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case addingRandomProductsToCartTC started
+[INFO] 26-07-2025 00:27:27 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 4
+[INFO] 26-07-2025 00:27:37 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:36)] - Test Case addingRandomProductsToCartTC failed
+[ERROR] 26-07-2025 00:27:48 [main] [Utilites.Utility.takeFullScreenSHOT(Utility.java:85)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b198f5721d432d5eea765140126075d, findElement {value=shopping_cart_badge, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52922/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b198f5721d432d5eea765140126075d
+[INFO] 26-07-2025 00:27:51 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:45)] - Chrome driver is opened
+[INFO] 26-07-2025 00:27:53 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:47)] - LoginPage is opened
+[INFO] 26-07-2025 00:27:53 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkingNumberOfSelectedProductsTC started
+[INFO] 26-07-2025 00:28:03 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 0
+[ERROR] 26-07-2025 00:28:13 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:48)] - Expected condition failed: waiting for visibility of element located by By.className: shopping_cart_badge (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52950/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1373a4921d6390b5bb10c873317e784
+[INFO] 26-07-2025 00:28:23 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:56)] - number of selected products = 0
+[INFO] 26-07-2025 00:28:23 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case checkingNumberOfSelectedProductsTC passed
+[INFO] 26-07-2025 00:28:26 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:45)] - Chrome driver is opened
+[INFO] 26-07-2025 00:28:27 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:47)] - LoginPage is opened
+[INFO] 26-07-2025 00:28:28 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:36)] - Test Case setup failed
+[ERROR] 26-07-2025 00:28:28 [main] [Utilites.Utility.takeScreenShot(Utility.java:74)] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46830bd943a7648c4c06ea3f31007028, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52978/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46830bd943a7648c4c06ea3f31007028
+[ERROR] 26-07-2025 00:28:28 [main] [Utilites.Utility.takeFullScreenSHOT(Utility.java:85)] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46830bd943a7648c4c06ea3f31007028, executeScript {args=[], script=return window.devicePixelRatio;}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52978/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46830bd943a7648c4c06ea3f31007028
+[INFO] 26-07-2025 00:28:28 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case clickOnCartIconURLTC started
+[INFO] 26-07-2025 00:28:28 [main] [Listeners.ITestResultListenerClass.onTestSkipped(ITestResultListenerClass.java:21)] - Test Case clickOnCartIconURLTC skipped
