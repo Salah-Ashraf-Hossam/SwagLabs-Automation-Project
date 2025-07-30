@@ -23,7 +23,8 @@ public class TC01_LoginTest {
 
     @BeforeMethod
     public void setup() throws IOException {
-        setupDriver(DataUtils.getPropertyValue("environment", "Browser"));
+        String browser = System.getProperty("browser") != null ? System.getProperty("browser") : DataUtils.getPropertyValue("environment", "Browser");
+        setupDriver(browser);
         LogsUtils.info("Chrome driver is opened");
         getDriver().get(DataUtils.getPropertyValue("environment", "LoginURL"));
         LogsUtils.info("LoginPage is opened");
