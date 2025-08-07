@@ -1,5 +1,6 @@
 package DriverFactory;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -14,14 +15,17 @@ public class DriverFactory {
     public static void setupDriver(String browserName) {
         switch (browserName.toLowerCase()) {
             case "edge":
+                WebDriverManager.edgedriver().setup();
                 EdgeOptions edgeOptions = new EdgeOptions();
                 edgeOptions.addArguments("--start-maximized");
                 driverThreadLocal.set(new EdgeDriver(edgeOptions));
                 break;
             case "firefox":
+                WebDriverManager.firefoxdriver().setup();
                 driverThreadLocal.set(new FirefoxDriver());
                 break;
             default:
+                WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--start-maximized");
                 driverThreadLocal.set(new ChromeDriver(options));
