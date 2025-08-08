@@ -1,0 +1,11 @@
+[INFO] 08-08-2025 16:09:45 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:28)] - Chrome driver is opened
+[INFO] 08-08-2025 16:10:46 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:30)] - LoginPage is opened
+[INFO] 08-08-2025 16:10:47 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case invalidLoginTC started
+[INFO] 08-08-2025 16:10:57 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:36)] - Test Case invalidLoginTC failed
+[ERROR] 08-08-2025 16:11:02 [main] [Utilites.Utility.takeFullScreenSHOT(Utility.java:85)] - Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [360caefb700c467b6bcf5f69a69c2619, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50298}, msedge: {msedgedriverVersion: 138.0.3351.132 (d4733b17b56..., userDataDir: C:\Users\salah\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50298/devtoo..., se:cdpVersion: 138.0.3351.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 360caefb700c467b6bcf5f69a69c2619

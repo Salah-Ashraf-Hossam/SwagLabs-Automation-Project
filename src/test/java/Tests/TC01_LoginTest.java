@@ -42,6 +42,26 @@ public class TC01_LoginTest {
                 .assertLoginTC(DataUtils.getPropertyValue("environment", "ProductsURL")));
     }
 
+    @Test
+    public void blockedLoginTC() throws IOException {
+        new P01_LoginPage(getDriver())
+                .enterUsername(DataUtils.getJsonData("blockedLoginData", "blockedUsername"))
+                .enterPassword(DataUtils.getJsonData("blockedLoginData", "blockedPassword"))
+                .clickOnLoginButton();
+        Assert.assertTrue(new P01_LoginPage(getDriver())
+                .assertLoginErrorMsg(DataUtils.getJsonData("blockedLoginData", "blockedLoginMsg")));
+    }
+
+    @Test
+    public void invalidLoginTC() throws IOException {
+        new P01_LoginPage(getDriver())
+                .enterUsername(DataUtils.getJsonData("invalidLoginData", "invalidUsername"))
+                .enterPassword(DataUtils.getJsonData("invalidLoginData", "invalidPassword"))
+                .clickOnLoginButton();
+        Assert.assertTrue(new P01_LoginPage(getDriver())
+                .assertLoginErrorMsg(DataUtils.getJsonData("invalidLoginData", "invalidLoginMsg")));
+    }
+
 
     @AfterMethod
     public void quit() {

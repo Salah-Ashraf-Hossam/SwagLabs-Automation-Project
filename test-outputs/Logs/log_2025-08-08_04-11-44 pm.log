@@ -1,0 +1,4 @@
+[INFO] 08-08-2025 16:11:44 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:28)] - Chrome driver is opened
+[INFO] 08-08-2025 16:12:03 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:30)] - LoginPage is opened
+[INFO] 08-08-2025 16:12:03 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case invalidLoginTC started
+[INFO] 08-08-2025 16:12:04 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case invalidLoginTC passed

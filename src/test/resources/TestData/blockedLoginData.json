@@ -1,0 +1,5 @@
+{
+  "blockedUsername": "locked_out_user",
+  "blockedPassword": "secret_sauce",
+  "blockedLoginMsg": "Epic sadface: Sorry, this user has been locked out."
+}
