@@ -18,6 +18,8 @@ public class DriverFactory {
                 WebDriverManager.edgedriver().setup();
                 EdgeOptions edgeOptions = new EdgeOptions();
                 edgeOptions.addArguments("--start-maximized");
+                edgeOptions.addArguments("--headless=new"); // For Edge 109+
+                edgeOptions.addArguments("--disable-gpu");
                 driverThreadLocal.set(new EdgeDriver(edgeOptions));
                 break;
             case "firefox":
