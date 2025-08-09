@@ -75,12 +75,6 @@ public class P02_LandingPage {
         return getNumberOfProductsOnCartIcon().equals(getNumberOfSelectedProducts());
     }
 
-    public P03_CartPage clickONCartIcon() {
-        Utility.clickingOnElement(driver, cartIcon);
-        return new P03_CartPage(driver);
-    }
-
-
     public String getTotalPriceOfSelectedProducts() {
         try {
             List<WebElement> pricesOfSelectedProducts = driver.findElements(pricesOfSelectedProductsLocator);
@@ -96,7 +90,11 @@ public class P02_LandingPage {
             LogsUtils.error(e.getMessage());
             return "0";
         }
+    }
 
+    public P03_CartPage clickONCartIcon() {
+        Utility.clickingOnElement(driver, cartIcon);
+        return new P03_CartPage(driver);
     }
 
 }

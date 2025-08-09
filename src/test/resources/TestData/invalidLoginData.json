@@ -1,5 +1,6 @@
 {
   "invalidUsername": "invalid_user",
   "invalidPassword": "invalid_pass",
-  "invalidLoginMsg": "Epic sadface: Username and password do not match any user in this service"
+  "invalidLoginMsg": "Epic sadface: Username and password do not match any user in this service",
+  "emptyLoginMsg": "Epic sadface: Username is required"
 }

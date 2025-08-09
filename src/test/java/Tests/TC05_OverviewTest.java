@@ -32,7 +32,7 @@ public class TC05_OverviewTest {
     public void setup() throws IOException {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : DataUtils.getPropertyValue("environment", "Browser");
         setupDriver(browser);
-        LogsUtils.info("Chrome driver is opened");
+        LogsUtils.info("edge driver is opened");
         getDriver().get(DataUtils.getPropertyValue("environment", "LoginURL"));
         LogsUtils.info("LoginPage is opened");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

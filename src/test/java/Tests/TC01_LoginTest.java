@@ -25,7 +25,7 @@ public class TC01_LoginTest {
     public void setup() throws IOException {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : DataUtils.getPropertyValue("environment", "Browser");
         setupDriver(browser);
-        LogsUtils.info("Chrome driver is opened");
+        LogsUtils.info("edge driver is opened");
         getDriver().get(DataUtils.getPropertyValue("environment", "LoginURL"));
         LogsUtils.info("LoginPage is opened");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -60,6 +60,14 @@ public class TC01_LoginTest {
                 .clickOnLoginButton();
         Assert.assertTrue(new P01_LoginPage(getDriver())
                 .assertLoginErrorMsg(DataUtils.getJsonData("invalidLoginData", "invalidLoginMsg")));
+    }
+
+    @Test
+    public void emptyLoginTC() throws IOException {
+        new P01_LoginPage(getDriver())
+                .clickOnLoginButton();
+        Assert.assertTrue(new P01_LoginPage(getDriver())
+                .assertLoginErrorMsg(DataUtils.getJsonData("invalidLoginData", "emptyLoginMsg")));
     }
 
 
