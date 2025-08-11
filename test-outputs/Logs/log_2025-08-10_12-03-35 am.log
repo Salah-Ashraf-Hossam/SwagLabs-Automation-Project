@@ -1,0 +1,91 @@
+[INFO] 10-08-2025 00:03:35 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:28)] - edge driver is opened
+[INFO] 10-08-2025 00:03:36 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:30)] - LoginPage is opened
+[INFO] 10-08-2025 00:03:37 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case blockedLoginTC started
+[INFO] 10-08-2025 00:03:37 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case blockedLoginTC passed
+[INFO] 10-08-2025 00:03:38 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:28)] - edge driver is opened
+[INFO] 10-08-2025 00:03:40 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:30)] - LoginPage is opened
+[INFO] 10-08-2025 00:03:40 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case emptyLoginTC started
+[INFO] 10-08-2025 00:03:40 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case emptyLoginTC passed
+[INFO] 10-08-2025 00:03:42 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:28)] - edge driver is opened
+[INFO] 10-08-2025 00:03:44 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:30)] - LoginPage is opened
+[INFO] 10-08-2025 00:03:44 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case invalidLoginTC started
+[INFO] 10-08-2025 00:03:44 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case invalidLoginTC passed
+[INFO] 10-08-2025 00:03:45 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:28)] - edge driver is opened
+[INFO] 10-08-2025 00:03:48 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:30)] - LoginPage is opened
+[INFO] 10-08-2025 00:03:48 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case validLoginTC started
+[INFO] 10-08-2025 00:03:48 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case validLoginTC passed
+[INFO] 10-08-2025 00:03:49 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:30)] - edge driver is opened
+[INFO] 10-08-2025 00:03:51 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:32)] - LoginPage is opened
+[INFO] 10-08-2025 00:03:52 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:47)] - edge driver is opened
+[INFO] 10-08-2025 00:03:54 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:49)] - LoginPage is opened
+[INFO] 10-08-2025 00:03:55 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case addingRandomProductsToCartTC started
+[INFO] 10-08-2025 00:03:55 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 1
+[INFO] 10-08-2025 00:03:55 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 5
+[INFO] 10-08-2025 00:03:55 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 6
+[INFO] 10-08-2025 00:03:55 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:45)] - number of products on cart = 3
+[INFO] 10-08-2025 00:03:55 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:56)] - number of selected products = 3
+[INFO] 10-08-2025 00:03:55 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case addingRandomProductsToCartTC passed
+[INFO] 10-08-2025 00:03:56 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:47)] - edge driver is opened
+[INFO] 10-08-2025 00:03:58 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:49)] - LoginPage is opened
+[INFO] 10-08-2025 00:03:59 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkingNumberOfSelectedProductsTC started
+[INFO] 10-08-2025 00:03:59 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 6
+[INFO] 10-08-2025 00:03:59 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:45)] - number of products on cart = 6
+[INFO] 10-08-2025 00:03:59 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:56)] - number of selected products = 6
+[INFO] 10-08-2025 00:03:59 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case checkingNumberOfSelectedProductsTC passed
+[INFO] 10-08-2025 00:04:01 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:47)] - edge driver is opened
+[INFO] 10-08-2025 00:04:02 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:49)] - LoginPage is opened
+[INFO] 10-08-2025 00:04:04 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case clickOnCartIconURLTC started
+[INFO] 10-08-2025 00:04:04 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case clickOnCartIconURLTC passed
+[INFO] 10-08-2025 00:04:05 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:30)] - edge driver is opened
+[INFO] 10-08-2025 00:04:08 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:32)] - LoginPage is opened
+[INFO] 10-08-2025 00:04:08 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case comparingPricesTC started
+[INFO] 10-08-2025 00:04:08 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 1
+[INFO] 10-08-2025 00:04:08 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 6
+[INFO] 10-08-2025 00:04:08 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:86)] - Total Price = 45.98
+[INFO] 10-08-2025 00:04:09 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:32)] - Total Price = 45.98
+[INFO] 10-08-2025 00:04:09 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:16)] - Test Case comparingPricesTC passed
+[INFO] 10-08-2025 00:04:10 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:34)] - edge driver is opened
+[INFO] 10-08-2025 00:04:11 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:36)] - LoginPage is opened
+[INFO] 10-08-2025 00:04:11 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepOneTC started
+[INFO] 10-08-2025 00:04:12 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 2
+[INFO] 10-08-2025 00:04:12 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 3
+[INFO] 10-08-2025 00:04:12 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:67)] - randomNumber 4
+[INFO] 10-08-2025 00:04:21 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:36)] - Test Case checkoutStepOneTC failed
+[ERROR] 10-08-2025 00:04:21 [main] [Utilites.Utility.takeScreenShot(Utility.java:74)] - Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3d11f54db71c862c6c92ecb4017825d, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51188/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3d11f54db71c862c6c92ecb4017825d
+[ERROR] 10-08-2025 00:04:21 [main] [Utilites.Utility.takeFullScreenSHOT(Utility.java:85)] - Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3d11f54db71c862c6c92ecb4017825d, executeScript [script, args]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51188/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3d11f54db71c862c6c92ecb4017825d
+[INFO] 10-08-2025 00:04:23 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:35)] - edge driver is opened
+[INFO] 10-08-2025 00:04:24 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:37)] - LoginPage is opened
+[INFO] 10-08-2025 00:04:25 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case checkoutStepTwoTC started
+[INFO] 10-08-2025 00:04:25 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 6
+[INFO] 10-08-2025 00:04:36 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:36)] - Test Case checkoutStepTwoTC failed
+[INFO] 10-08-2025 00:04:41 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:35)] - edge driver is opened
+[INFO] 10-08-2025 00:04:41 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:37)] - LoginPage is opened
+[INFO] 10-08-2025 00:04:41 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case finishOrderTC started
+[INFO] 10-08-2025 00:04:43 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:35)] - number of all products = 6
+[INFO] 10-08-2025 00:04:51 [main] [Listeners.IInvokeMethodListenerClass.afterInvocation(IInvokeMethodListenerClass.java:36)] - Test Case finishOrderTC failed
+[ERROR] 10-08-2025 00:04:51 [main] [Utilites.Utility.takeScreenShot(Utility.java:74)] - Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [826d4b89c43948ac1105c5083efa4e91, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51246/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 826d4b89c43948ac1105c5083efa4e91
+[ERROR] 10-08-2025 00:04:51 [main] [Utilites.Utility.takeFullScreenSHOT(Utility.java:85)] - Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [826d4b89c43948ac1105c5083efa4e91, executeScript [script, args]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\salah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51246/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 826d4b89c43948ac1105c5083efa4e91
